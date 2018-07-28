@@ -1,0 +1,13 @@
+{
+  "name": "JT.0219",
+  "description": "Inspired by the Symphogear subreddit server's Kirichan bot!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "11.3.2",
+    "request": ""
+  }
+}
