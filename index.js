@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', async () => {
     
-    bot.user.setActivity('with Shirabe, dess!' {type: "PLAYING"});
+    bot.user.setActivity('with Shirabe, dess!', { type: "PLAYING"} );
 
 });
 
@@ -69,7 +69,7 @@ bot.on('guildMemberAdd', member => {
 });
 
 bot.on('guildMemberRemove', member => {
-    member.guild.channels.get('456297725223501825').send('**' + member.user.username + '** has left the server, dess. I will now cry on my corner, dess. T___T');
+    member.guild.channels.get('456297725223501825').send('**' + member.user.username + '** has left the server, dess. Looks like they did not admire their waifu, dess.');
 });
 
 bot.login(process.env.BOT_TOKEN);
