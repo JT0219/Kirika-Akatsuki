@@ -1,6 +1,12 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
+bot.on('ready', async () => {
+    
+    bot.user.setGame('with Shirabe, dess!');
+
+});
+
 bot.on('message', (message) => {
 
     if(message.author.bot) return;
