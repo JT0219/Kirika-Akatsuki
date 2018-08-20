@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', async () => {
     
-    bot.user.setGame('with Shirabe, dess!');
+    bot.user.setActivity('with Shirabe, dess!' {type: "PLAYING"});
 
 });
 
