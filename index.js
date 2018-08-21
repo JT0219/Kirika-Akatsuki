@@ -38,10 +38,10 @@ bot.on('message', (message) => {
         message.channel.send('?');
     }
     if(message.content == 'DESS!!!!'){
-        message.channel.send('Dont shout at me, dess!');
+        message.channel.send('Don\'t shout at me, dess!');
     }
         if(message.content == 'Can I ping you?'){
-        message.channel.send('Dont you dare ping me, dess.');
+        message.channel.send('Don\'t you dare ping me, dess.');
     }
     if(message.content == 'Kongou Dess!'){
         message.channel.send('Kongou what, dess?');
@@ -50,10 +50,10 @@ bot.on('message', (message) => {
         message.channel.send('Did you just fucking ping me, dess?');
     }
     if(message.content == 'Who are you?'){
-        message.channel.send('Im Kirika, dess!');
+        message.channel.send('I\'m Kirika, dess!');
     }
     if(message.content == 'Desu!'){
-        message.channel.send('That is not the right spelling, dess.');
+        message.channel.send('That\'s not the right spelling, dess.');
     }
     if(message.content == 'Say Shirabe'){
         message.channel.send('My love!');
