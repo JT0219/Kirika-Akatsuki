@@ -61,6 +61,9 @@ bot.on('message', (message) => {
     if(message.content == 'です!'){
         message.channel.send('What the fuck are you saying, dess?');
     }
+    if(message.content == 'Can I call you Renown?'){
+        message.channel.send('Just because I have the same hair as her and share the same seiyuu doesn\'t make me want you to call me Renown, dess.')   
+    }
 
 });
 
